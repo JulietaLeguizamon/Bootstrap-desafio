@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.footer {
+    text-align: right;
+    margin: 0 auto;
+    width: 400px;
+
+
+}
+
+input {
+   
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15px;
+
+
+
+
+}
+
+ul {
+
+    padding: 15px;
+
+}
+
+li {
+    display: inline;
+
+}
+
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+
+.banner {
+    width: 100%;
+    display:block
+
+
+
+}
+
+
+
+.jordans {
+    height: 300px;
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.jordan23 {
+    width: 650px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+.form {
+    margin-left: 80px;
+
+}
+
+.jordanPelota {
+    width: 600px;
+    height: 300px;
+    margin-left: 375px;
+}
+
+.header a:hover {
+    color: brown;
+    font-weight: bold;
+
+}
+
+main {
+    min-height: 80vh;
+}
+
+.color-boton{
+    background-color:red;
+    color: bisque;
+
+}
+
+.card-body{
+    background-color: whitesmoke;
+}
+
+.fa-whatsapp{
+    color: green;
+
+}
+.somos{
+    text-align: center;
+}

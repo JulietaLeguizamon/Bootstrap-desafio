@@ -2,110 +2,116 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <!-- bootstrap estilo -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/042182f240.js" crossorigin="anonymous"></script>
+  <!-- bootstrap estilo -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Home</title>
 </head>
 
 <body>
-    <header class="header">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/marcas.html">Marcas</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/ubicacion.html">Ubicacion</a></li>
-                <li><a href="pages/nosotros.html">Nosotros</a></li>
+  <header class="header">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/marcas.html">Marcas</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+        <li><a href="pages/ubicacion.html">Ubicacion</a></li>
+        <li><a href="pages/nosotros.html">Nosotros</a></li>
 
-            </ul>
-        </nav>
-        <a href="index.html">
-            <img class="logo" src="./multimedia/Logo.jpg" alt="Logo">
-        </a>
+      </ul>
+    </nav>
+    <a href="index.html">
+      <img class="logo" src="./multimedia/Logo.jpg" alt="Logo">
+    </a>
 
-        <form action="#">
-            <input type="search" placeholder=" Busca tu sneaker" name="Busqueda">
-        </form>
+    <form action="#">
+      <input type="search" placeholder=" Busca tu sneaker" name="Busqueda">
+    </form>
 
 
-    </header>
+  </header>
 
-    <main>
-        <div>
-            <img class="banner"
-                src="https://pyxis.nymag.com/v1/imgs/d09/4ba/4fa0bb5801d8f607fd54b3a307c72371d2-michael-jordan-how-to-watch.2x.rsocial.w600.jpg"
-                alt="baner">
+  <main>
+    <div>
+      <img class="banner w-100"
+        src="https://pyxis.nymag.com/v1/imgs/d09/4ba/4fa0bb5801d8f607fd54b3a307c72371d2-michael-jordan-how-to-watch.2x.rsocial.w600.jpg"
+        alt="baner">
+    </div>
+
+    <section>
+
+      <H1>PRODUTOS DESTACADOS</H1>
+      <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
         </div>
-
-        <section>
-
-            <H1>PRODUTOS DESTACADOS</H1>
-            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./multimedia/Jordan1.jpg" class="d-block w-100" alt="jordan1">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./multimedia/Jordan3.jpg" class="d-block w-100" alt="jordan3">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./multimedia/Jordan4.jpg" class="d-block w-100" alt="jordan4">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-        </section>
-
-        <div>
-            <h2>WE ARE JORDAN</h2>
-            <P class="somos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quia commodi sunt
-                totam dolor iste
-                omnis laboriosam nihil a! Modi dolor obcaecati et in minus amet est rerum tempore nostrum dignissimos
-                impedit praesentium dolore esse ab vitae mollitia exercitationem debitis veniam ex alias, consequatur
-                quo sapiente. Incidunt provident culpa eos!</P>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./multimedia/Jordan1.jpg" class="d-block w-100" alt="jordan1">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/Jordan3.jpg" class="d-block w-100" alt="jordan3">
+          </div>
+          <div class="carousel-item">
+            <img src="./multimedia/Jordan4.jpg" class="d-block w-100" alt="jordan4">
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+    <div>
+      <h2>WE ARE JORDAN</h2>
+      <P class="somos fs-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem quia commodi sunt
+        totam dolor iste
+        omnis laboriosam nihil a! Modi dolor obcaecati et in minus amet est rerum tempore nostrum dignissimos
+        impedit praesentium dolore esse ab vitae mollitia exercitationem debitis veniam ex alias, consequatur
+        quo sapiente. Incidunt provident culpa eos!</P>
+    </div>
 
 
-        
-
-    </main>
 
 
+  </main>
 
 
 
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="">Metodos de pago</a></li>
-                <li><a href="">Seguinos</a></li>
-                <li><a href="">¿Por que elegirnos?</a></li>
-            </ul>
-        </nav>
-        <p class="footer">Hecho por Julieta 2022 &copy;</p>
 
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href=""><i class="fa-brands fa-whatsapp"></i> Contactanos</a> </li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i> Seguinos</a> </li>
+        <li><a href="">¿Por que elegirnos?</a></li>
+      </ul>
+    </nav>
+    <p class="footer fs-5 text-center">Hecho por Julieta 2022 &copy;</p>
+
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
